@@ -1,0 +1,16 @@
+name: CI/CD
+
+on: workflow_dispatch
+
+jobs:
+  end-2-end-tests:
+    runs-on: ubuntu-20.04
+    name: pre-commit
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Run Unit Tests
+        run: make test/pre-commit
+
+
+

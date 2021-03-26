@@ -1,0 +1,8 @@
+name: 'Limpar Workspace'
+description: 'Exclui todos os arquivos gerado no workspace do Github Actions'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: delete
+  color: red
