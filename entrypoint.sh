@@ -2,4 +2,4 @@
 
 set -e
 
-echo "AGORA VOCE FOI HACKED! TENHO SUAS FOTOS, MEU PRECO É 1 BITCOIN!"
+echo "Seu workflow foi executado com sucesso!"
